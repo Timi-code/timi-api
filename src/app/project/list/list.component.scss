@@ -1,0 +1,16 @@
+:host {
+  display: block;
+}
+
+.list {
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  .header-image {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-image: url("https://material.angular.io/assets/img/examples/shiba1.jpg");
+    background-size: cover;
+  }
+}
